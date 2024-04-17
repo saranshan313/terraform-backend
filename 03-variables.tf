@@ -9,3 +9,4 @@ variable "table_name" {
   type        = string
   default     = "terraform-remote-state-dynamo"
 }
+#
