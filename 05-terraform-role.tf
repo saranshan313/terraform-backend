@@ -33,6 +33,7 @@ data "aws_iam_policy_document" "github_assume_policy" {
       type = "Federated"
       identifiers = [
         aws_iam_openid_connect_provider.github_oidc_provider.arn
+#        "arn:aws:iam::300428143068:oidc-provider/token.actions.githubusercontent.com"
       ]
     }
 
